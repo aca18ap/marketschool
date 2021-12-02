@@ -1,0 +1,9 @@
+{
+    "name": "marketschool-server",
+    "version": "1.0.0",
+    "description": "adsadsasd",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js"
+    }
+}
