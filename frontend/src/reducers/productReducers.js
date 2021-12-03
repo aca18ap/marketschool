@@ -1,10 +1,12 @@
-import { 
+ import { 
     PRODUCT_LIST_REQUEST, 
     PRODUCT_LIST_SUCCESS, 
     PRODUCT_LIST_FAIL, 
-}   from require('../constants/productConstants');
+} from require('../constants/productConstants');
 
-export const productListReducer= (state = { loading: true, products: [] }, action) => {
+export const productListReducer= (state = { loading: true, 
+    products: [] }, 
+    action) => {
     switch (action.type) {
         case PRODUCT_LIST_REQUEST:
             return { loading: true };
